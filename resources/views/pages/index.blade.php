@@ -6,7 +6,7 @@
 <section class="slider">
     <div class="hero-slider">
         <!-- Start Single Slider -->
-        <div class="single-slider" style="background-image:url('img/others/484998820_1051708283659210_8956366283251761947_n.jpg')">
+        <div class="single-slider" style="background-image:url('img/space/IMG_6603.JPG')">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
@@ -20,7 +20,7 @@
         </div>
         <!-- End Single Slider -->
         <!-- Start Single Slider -->
-        <div class="single-slider" style="background-image:url('img/others/490133348_1072910234872348_4577522207996618996_n.jpg')">
+        <div class="single-slider" style="background-image:url('img/space/IMG_6454.JPG')">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
@@ -34,7 +34,7 @@
         </div>
         <!-- Start End Slider -->
         <!-- Start Single Slider -->
-        <div class="single-slider" style="background-image:url('img/others/490640072_1072910214872350_4997732712420951124_n.jpg')">
+        <div class="single-slider" style="background-image:url('img/space/IMG_6878.JPG')">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
@@ -50,24 +50,23 @@
     </div>
 </section>
 <!--/ End Slider Area -->
-
 <!-- Start Schedule Area -->
 <section class="schedule">
     <div class="container">
         <div class="schedule-inner">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-12 ">
+                <div class="col-lg-4 col-md-6 col-12">
                     <!-- single-schedule -->
-                    <div class="single-schedule first">
+                    <div class="single-schedule middle">
                         <div class="inner">
                             <div class="icon">
-                                <i class="fa fa-ambulance"></i>
+                                <i class="icofont-prescription"></i>
                             </div>
                             <div class="single-content">
-                                <span>Lorem Amet</span>
-                                <h4>Đặt lịch ngay</h4>
+                                <span>Studio 1</span>
+                                <h4>Studio 50 m<sup>2</sup></h4>
                                 <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
-                                <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+                                <a href="#">Xem thêm<i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -80,30 +79,26 @@
                                 <i class="icofont-prescription"></i>
                             </div>
                             <div class="single-content">
-                                <span>Fusce Porttitor</span>
-                                <h4>Doctors Timetable</h4>
+                                <span>Studio 2</span>
+                                <h4>Studio 170 m<sup>2</sup></h4>
                                 <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
-                                <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+                                <a href="#">Xem thêm<i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12 col-12">
+                <div class="col-lg-4 col-md-6 col-12">
                     <!-- single-schedule -->
-                    <div class="single-schedule last">
+                    <div class="single-schedule middle">
                         <div class="inner">
                             <div class="icon">
-                                <i class="icofont-ui-clock"></i>
+                                <i class="icofont-prescription"></i>
                             </div>
                             <div class="single-content">
-                                <span>Donec luctus</span>
-                                <h4>Opening Hours</h4>
-                                <ul class="time-sidual">
-                                    <li class="day">Monday - Fridayp <span>8.00-20.00</span></li>
-                                    <li class="day">Saturday <span>9.00-18.30</span></li>
-                                    <li class="day">Monday - Thusday <span>9.00-15.00</span></li>
-                                </ul>
-                                <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+                                <span>Studio 3</span>
+                                <h4>Studio 250 m<sup>2</sup></h4>
+                                <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
+                                <a href="#">Xem thêm<i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -113,146 +108,16 @@
     </div>
 </section>
 <!--/End Start schedule Area -->
-
-<!-- Start Feautes -->
-<section class="Feautes section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <h2>We Are Always Ready to Help You & Your Family</h2>
-                    <img src="img/section-img.png" alt="#">
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-12">
-                <!-- Start Single features -->
-                <div class="single-features">
-                    <div class="signle-icon">
-                        <i class="icofont icofont-ambulance-cross"></i>
-                    </div>
-                    <h3>Emergency Help</h3>
-                    <p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
-                </div>
-                <!-- End Single features -->
-            </div>
-            <div class="col-lg-4 col-12">
-                <!-- Start Single features -->
-                <div class="single-features">
-                    <div class="signle-icon">
-                        <i class="icofont icofont-medical-sign-alt"></i>
-                    </div>
-                    <h3>Enriched Pharmecy</h3>
-                    <p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
-                </div>
-                <!-- End Single features -->
-            </div>
-            <div class="col-lg-4 col-12">
-                <!-- Start Single features -->
-                <div class="single-features last">
-                    <div class="signle-icon">
-                        <i class="icofont icofont-stethoscope"></i>
-                    </div>
-                    <h3>Medical Treatment</h3>
-                    <p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
-                </div>
-                <!-- End Single features -->
-            </div>
-        </div>
-    </div>
-</section>
-<!--/ End Feautes -->
-
-<!-- Start Fun-facts -->
-<div id="fun-facts" class="fun-facts section overlay">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-12">
-                <!-- Start Single Fun -->
-                <div class="single-fun">
-                    <i class="icofont icofont-home"></i>
-                    <div class="content">
-                        <span class="counter">3468</span>
-                        <p>Hospital Rooms</p>
-                    </div>
-                </div>
-                <!-- End Single Fun -->
-            </div>
-            <div class="col-lg-3 col-md-6 col-12">
-                <!-- Start Single Fun -->
-                <div class="single-fun">
-                    <i class="icofont icofont-user-alt-3"></i>
-                    <div class="content">
-                        <span class="counter">557</span>
-                        <p>Specialist Doctors</p>
-                    </div>
-                </div>
-                <!-- End Single Fun -->
-            </div>
-            <div class="col-lg-3 col-md-6 col-12">
-                <!-- Start Single Fun -->
-                <div class="single-fun">
-                    <i class="icofont-simple-smile"></i>
-                    <div class="content">
-                        <span class="counter">4379</span>
-                        <p>Happy Patients</p>
-                    </div>
-                </div>
-                <!-- End Single Fun -->
-            </div>
-            <div class="col-lg-3 col-md-6 col-12">
-                <!-- Start Single Fun -->
-                <div class="single-fun">
-                    <i class="icofont icofont-table"></i>
-                    <div class="content">
-                        <span class="counter">32</span>
-                        <p>Years of Experience</p>
-                    </div>
-                </div>
-                <!-- End Single Fun -->
-            </div>
-        </div>
-    </div>
-</div>
-<!--/ End Fun-facts -->
-
 <!-- Start Why choose -->
 <section class="why-choose section" >
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <h2>We Offer Different Services To Improve Your Health</h2>
-                    <img src="img/section-img.png" alt="#">
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
             <div class="col-lg-6 col-12">
                 <!-- Start Choose Left -->
                 <div class="choose-left">
-                    <h3>Who We Are</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra antege vel est lobortis, a commodo magna rhoncus. In quis nisi non emet quam pharetra commodo. </p>
-                    <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="list">
-                                <li><i class="fa fa-caret-right"></i>Maecenas vitae luctus nibh. </li>
-                                <li><i class="fa fa-caret-right"></i>Duis massa massa.</li>
-                                <li><i class="fa fa-caret-right"></i>Aliquam feugiat interdum.</li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <ul class="list">
-                                <li><i class="fa fa-caret-right"></i>Maecenas vitae luctus nibh. </li>
-                                <li><i class="fa fa-caret-right"></i>Duis massa massa.</li>
-                                <li><i class="fa fa-caret-right"></i>Aliquam feugiat interdum.</li>
-                            </ul>
-                        </div>
-                    </div>
+                    <h3>Chúng tôi là ai?</h3>
+                    <p>Studio chụp ảnh chuyên nghiệp, với diện tích 50m<sup>2</sup>, 170m<sup>2</sup>, 250m<sup>2</sup> và tường vô cực, sử dụng thiết bị từ các thương hiệu hàng đầu như Profoto, Fujifilm, Aputure...</p>
+                    <p>LYNK studio là giải pháp hoàn hảo cho mọi nhu cầu về sáng tạo khác nhau.. </p>
                 </div>
                 <!-- End Choose Left -->
             </div>
@@ -260,16 +125,13 @@
                 <!-- Start Choose Rights -->
                 <div class="choose-right">
                     <div class="video-image">
-                        <!-- Video Animation -->
-                        <div class="promo-video">
-                            <div class="waves-block">
-                                <div class="waves wave-1"></div>
-                                <div class="waves wave-2"></div>
-                                <div class="waves wave-3"></div>
-                            </div>
-                        </div>
+                    
                         <!--/ End Video Animation -->
-                        <a href="https://www.youtube.com/watch?v=RFVXy6CRVR4" class="video video-popup mfp-iframe"><i class="fa fa-play"></i></a>
+                        <div class="map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0160234549103!2d106.74984284838236!3d10.810084361940579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175270e04ea5057%3A0xdb5017b80d8750ff!2sLYNK%20Production!5e0!3m2!1sen!2s!4v1744995645423!5m2!1sen!2s" 
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
                     </div>
                 </div>
                 <!-- End Choose Rights -->
@@ -278,25 +140,6 @@
     </div>
 </section>
 <!--/ End Why choose -->
-
-<!-- Start Call to action -->
-<section class="call-action overlay" data-stellar-background-ratio="0.5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-12">
-                <div class="content">
-                    <h2>Do you need Emergency Medical Care? Call @ 1234 56789</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor dictum turpis nec gravida.</p>
-                    <div class="button">
-                        <a href="#" class="btn">Contact Now</a>
-                        <a href="#" class="btn second">Learn More<i class="fa fa-long-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--/ End Call to action -->
 
 <!-- Start portfolio -->
 <section class="portfolio section" >
@@ -353,78 +196,6 @@
     </div>
 </section>
 <!--/ End portfolio -->
-
-<!-- Start service -->
-<section class="services section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <h2>We Offer Different Services To Improve Your Health</h2>
-                    <img src="img/section-img.png" alt="#">
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Service -->
-                <div class="single-service">
-                    <i class="icofont icofont-prescription"></i>
-                    <h4><a href="service-details.html">General Treatment</a></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-                </div>
-                <!-- End Single Service -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Service -->
-                <div class="single-service">
-                    <i class="icofont icofont-tooth"></i>
-                    <h4><a href="service-details.html">Teeth Whitening</a></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-                </div>
-                <!-- End Single Service -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Service -->
-                <div class="single-service">
-                    <i class="icofont icofont-heart-alt"></i>
-                    <h4><a href="service-details.html">Heart Surgery</a></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-                </div>
-                <!-- End Single Service -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Service -->
-                <div class="single-service">
-                    <i class="icofont icofont-listening"></i>
-                    <h4><a href="service-details.html">Ear Treatment</a></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-                </div>
-                <!-- End Single Service -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Service -->
-                <div class="single-service">
-                    <i class="icofont icofont-eye-alt"></i>
-                    <h4><a href="service-details.html">Vision Problems</a></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-                </div>
-                <!-- End Single Service -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Service -->
-                <div class="single-service">
-                    <i class="icofont icofont-blood"></i>
-                    <h4><a href="service-details.html">Blood Transfusion</a></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-                </div>
-                <!-- End Single Service -->
-            </div>
-        </div>
-    </div>
-</section>
-<!--/ End service -->
 
 <!-- Pricing Table -->
 <section class="pricing-table section">
