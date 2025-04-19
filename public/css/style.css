@@ -1240,6 +1240,26 @@ body{
 	display:none;
 }
 /* Slider Nav */
+.image-slider {
+    max-width: 100%; /* Đảm bảo slider không vượt quá chiều rộng container */
+    overflow: hidden; /* Ẩn phần hình ảnh vượt ra ngoài */
+    text-align: center; /* Căn giữa hình ảnh */
+}
+.image-slider .pf-details-slider img {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng container */
+    max-height: 600px; /* Giới hạn chiều cao cố định */
+    object-fit: cover; /* Thu phóng hình ảnh để phù hợp với khung */
+    display: inline-block; /* Đảm bảo hình ảnh hiển thị đúng */
+    border-radius: 5px; /* Tùy chọn: Bo góc hình ảnh */
+}
+@media (max-width: 767px) {
+    .image-slider .pf-details-slider img {
+        width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng container */
+        height: auto; /* Giữ tỷ lệ hình ảnh */
+        max-height: 300px; /* Giới hạn chiều cao cố định cho hình ảnh */
+        object-fit: cover; /* Thu phóng hình ảnh để phù hợp với khung */
+    }
+}
 .pf-details .image-slider .owl-nav{
 	margin: 0;
     position: absolute;
@@ -1281,7 +1301,7 @@ body{
 	width:100%;
 }
 .pf-details .date{
-	background: #1a76d1;
+	background: #0000007c;
 	display: block;
 	padding: 20px;
 	text-align: center;
@@ -1303,6 +1323,15 @@ body{
 	font-weight:500;
 	display:inline-block;
 	margin-right:5px;
+}
+.calendar-container {
+    max-width: 100%; /* Đảm bảo lịch không vượt quá chiều rộng container */
+    margin: 20px auto; /* Căn giữa lịch và thêm khoảng cách trên/dưới */
+    padding: 10px; /* Thêm khoảng cách bên trong */
+    background-color: #f9f9f9; /* Màu nền nhẹ để làm nổi bật lịch */
+    border: 1px solid #ddd; /* Đường viền nhẹ xung quanh lịch */
+    border-radius: 8px; /* Bo góc lịch */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
 }
 .pf-details .body-text{}
 .pf-details .body-text h3 {

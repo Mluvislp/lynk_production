@@ -11,6 +11,11 @@ class PageController extends Controller
         return view('pages.index');
     }
 
+    public function studio()
+    {
+        return view('pages.studio');
+    }
+
     public function contact()
     {
         return view('pages.contact');

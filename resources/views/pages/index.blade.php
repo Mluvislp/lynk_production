@@ -169,37 +169,37 @@
                         <img src="{{ asset('img/space/DSCF8299.JPG') }}" alt="#" onclick="openModal(this)">
                     </div>
                     <div class="single-pf">
-                        <img src="{{ asset('img/space/DSCF8368.JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/DSCF8368.JPG') }}" alt="#"  onclick="openModal(this)">
                     </div>
                     <div class="single-pf">
-                        <img src="{{ asset('img/space/DSCF8652.JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/DSCF8652.JPG') }}" alt="#"  onclick="openModal(this)">
                     </div>
                     <div class="single-pf">
-                        <img src="{{ asset('img/space/IMG_6454.JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/IMG_6454.JPG') }}" alt="#"  onclick="openModal(this)">
                     </div>
                     <div class="single-pf">
-                        <img src="{{ asset('img/space/IMG_6603.JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/IMG_6603.JPG') }}" alt="#"  onclick="openModal(this)">
                     </div>
                     <div class="single-pf">
-                        <img src="{{ asset('img/space/IMG_6878.JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/IMG_6878.JPG') }}" alt="#"  onclick="openModal(this)">
                     </div>
                     <div class="single-pf">
-                        <img src="{{ asset('img/space/IMG_7267.JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/IMG_7267.JPG') }}" alt="#"  onclick="openModal(this)">
                     </div>
                     <div class="single-pf">
-                        <img src="{{ asset('img/space/IMG_7268.JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/IMG_7268.JPG') }}" alt="#"  onclick="openModal(this)">
                     </div>
                     <div class="single-pf">
-                        <img src="{{ asset('img/space/IMG_7273.JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/IMG_7273.JPG') }}" alt="#"  onclick="openModal(this)">
                     </div>
                     <div class="single-pf">
-                        <img src="{{ asset('img/space/IMG_7276.JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/IMG_7276.JPG') }}" alt="#"  onclick="openModal(this)">
                     </div>
                     <div class="single-pf">
-                        <img src="{{ asset('img/space/IMG_7277.JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/IMG_7277.JPG') }}" alt="#"  onclick="openModal(this)">
                     </div>
                     <div class="single-pf">
-                        <img src="{{ asset('img/space/IMG_7278.JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/IMG_7278.JPG') }}" alt="#"  onclick="openModal(this)">
                     </div>
                 </div>
             </div>

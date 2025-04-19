@@ -33,14 +33,21 @@
                     <div class="mobile-nav"></div>
                 </div>
                 <div class="col-lg-7 col-md-9 col-12">
-                    <nav class="navigation">
-                        <ul class="nav menu">
-                            <li class="active"><a href="{{ url('/') }}">Trang chủ</a></li>
-                            <li><a href="#">Studio</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="{{ route('contact') }}">Contact Us</a></li>
-                        </ul>
-                    </nav>
+                <nav class="navigation">
+                    <ul class="nav menu">
+                        <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{ url('/') }}">Trang chủ</a></li>
+                        <li class="{{ Request::is('studio*') ? 'active' : '' }}"><a href="#">Studio</a>
+                            <ul class="dropdown">
+                                <li class="{{ Route::currentRouteName() === 'studio' ? 'active' : '' }}"><a href="{{ route('studio') }}">Studio 1</a></li>
+                                <li class="{{ Route::currentRouteName() === 'studio' ? 'active' : '' }}"><a href="{{ route('studio') }}">Studio 2</a></li>
+                                <li class="{{ Route::currentRouteName() === 'studio' ? 'active' : '' }}"><a href="{{ route('studio') }}">Studio 3</a></li>
+                                <li class="{{ Route::currentRouteName() === 'studio' ? 'active' : '' }}"><a href="{{ route('studio') }}">Lynk cafe</a></li>
+                            </ul>
+                        </li>
+                        <li class="{{ Request::is('portfolio') ? 'active' : '' }}"><a href="#">Portfolio</a></li>
+                        <li class="{{ Route::currentRouteName() === 'contact' ? 'active' : '' }}"><a href="{{ route('contact') }}">Contact Us</a></li>
+                    </ul>
+                </nav>
                 </div>
                 <div class="col-lg-2 col-12 text-right">
                     <a href="#" class="btn">BOOK NOW</a>
