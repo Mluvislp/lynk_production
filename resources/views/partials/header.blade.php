@@ -25,9 +25,11 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-3 col-md-3 col-12">
-                    <div class="logo">
-                        <a href="{{ url('/') }}"><img src="{{ asset('img/logo.png') }}" alt="Logo"></a>
-                    </div>
+                        <div class="logo">
+                            <a href="{{ url('/') }}">
+                                <img src="{{ asset('img/logo/LOGO LYNK_02.png') }}" alt="Logo" class="logo-img">
+                            </a>
+                        </div>
                     <div class="mobile-nav"></div>
                 </div>
                 <div class="col-lg-7 col-md-9 col-12">

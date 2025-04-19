@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title','Home page')
+@section('title','LYNK Home page')
 
 @section('content')
 <!-- Slider Area -->
@@ -60,7 +60,7 @@
                     <div class="single-schedule middle">
                         <div class="inner">
                             <div class="icon">
-                                <i class="icofont-prescription"></i>
+                                <i class="icofont-ui-camera"></i>
                             </div>
                             <div class="single-content">
                                 <span>Studio 1</span>
@@ -76,7 +76,7 @@
                     <div class="single-schedule middle">
                         <div class="inner">
                             <div class="icon">
-                                <i class="icofont-prescription"></i>
+                                <i class="icofont-camera"></i>
                             </div>
                             <div class="single-content">
                                 <span>Studio 2</span>
@@ -92,7 +92,7 @@
                     <div class="single-schedule middle">
                         <div class="inner">
                             <div class="icon">
-                                <i class="icofont-prescription"></i>
+                                <i class="icofont-camera-alt"></i>
                             </div>
                             <div class="single-content">
                                 <span>Studio 3</span>
@@ -147,55 +147,83 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    <h2>We Maintain Cleanliness Rules Inside Our Hospital</h2>
+                    <h2>Tham khảo các hoạt động</h2>
                     <img src="img/section-img.png" alt="#">
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
                 </div>
             </div>
         </div>
     </div>
+    <!-- filepath: d:\Github\lynk_production\resources\views\pages\index.blade.php -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 col-12">
                 <div class="owl-carousel portfolio-slider">
                     <div class="single-pf">
-                        <img src="img/pf1.jpg" alt="#">
-                        <a href="portfolio-details.html" class="btn">View Details</a>
+                        <img src="{{ asset('img/space/DSCF7761.JPG') }}" alt="#" onclick="openModal(this)">
                     </div>
                     <div class="single-pf">
-                        <img src="img/pf2.jpg" alt="#">
-                        <a href="portfolio-details.html" class="btn">View Details</a>
+                        <img src="{{ asset('img/space/DSCF7765.JPG') }}" alt="#" onclick="openModal(this)">
                     </div>
                     <div class="single-pf">
-                        <img src="img/pf3.jpg" alt="#">
-                        <a href="portfolio-details.html" class="btn">View Details</a>
+                        <img src="{{ asset('img/space/DSCF8299.JPG') }}" alt="#" onclick="openModal(this)">
                     </div>
                     <div class="single-pf">
-                        <img src="img/pf4.jpg" alt="#">
-                        <a href="portfolio-details.html" class="btn">View Details</a>
+                        <img src="{{ asset('img/space/DSCF8368.JPG') }}" alt="#">
                     </div>
                     <div class="single-pf">
-                        <img src="img/pf1.jpg" alt="#">
-                        <a href="portfolio-details.html" class="btn">View Details</a>
+                        <img src="{{ asset('img/space/DSCF8652.JPG') }}" alt="#">
                     </div>
                     <div class="single-pf">
-                        <img src="img/pf2.jpg" alt="#">
-                        <a href="portfolio-details.html" class="btn">View Details</a>
+                        <img src="{{ asset('img/space/IMG_6454.JPG') }}" alt="#">
                     </div>
                     <div class="single-pf">
-                        <img src="img/pf3.jpg" alt="#">
-                        <a href="portfolio-details.html" class="btn">View Details</a>
+                        <img src="{{ asset('img/space/IMG_6603.JPG') }}" alt="#">
                     </div>
                     <div class="single-pf">
-                        <img src="img/pf4.jpg" alt="#">
-                        <a href="portfolio-details.html" class="btn">View Details</a>
+                        <img src="{{ asset('img/space/IMG_6878.JPG') }}" alt="#">
+                    </div>
+                    <div class="single-pf">
+                        <img src="{{ asset('img/space/IMG_7267.JPG') }}" alt="#">
+                    </div>
+                    <div class="single-pf">
+                        <img src="{{ asset('img/space/IMG_7268.JPG') }}" alt="#">
+                    </div>
+                    <div class="single-pf">
+                        <img src="{{ asset('img/space/IMG_7273.JPG') }}" alt="#">
+                    </div>
+                    <div class="single-pf">
+                        <img src="{{ asset('img/space/IMG_7276.JPG') }}" alt="#">
+                    </div>
+                    <div class="single-pf">
+                        <img src="{{ asset('img/space/IMG_7277.JPG') }}" alt="#">
+                    </div>
+                    <div class="single-pf">
+                        <img src="{{ asset('img/space/IMG_7278.JPG') }}" alt="#">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!--/ End portfolio -->
+
+<div id="imageModal" class="modal" style="display: none;">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+<script>
+    function openModal(img) {
+        var modal = document.getElementById("imageModal");
+        var modalImg = document.getElementById("modalImage");
+        modal.style.display = "block";
+        modalImg.src = img.src;
+    }
+
+    function closeModal() {
+        var modal = document.getElementById("imageModal");
+        modal.style.display = "none";
+    }
+</script>
 
 <!-- Pricing Table -->
 <section class="pricing-table section">
@@ -203,7 +231,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    <h2>We Provide You The Best Treatment In Resonable Price</h2>
+                    <h2>Chúng tôi cung cấp dịch vụ với giá cả tốt nhất</h2>
                     <img src="img/section-img.png" alt="#">
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
                 </div>
@@ -215,40 +243,13 @@
                 <div class="single-table">
                     <!-- Table Head -->
                     <div class="table-head">
+                        <!-- filepath: d:\Github\lynk_production\resources\views\pages\index.blade.php -->
                         <div class="icon">
-                            <i class="icofont icofont-ui-cut"></i>
+                            <img src="{{ asset('img/space/studio2/83f8463af362323c6b737.jpg') }}" alt="Plastic Surgery Icon">
                         </div>
-                        <h4 class="title">Plastic Suggery</h4>
+                        <h4 class="title">Studio 50 m<sup>2</sup></h4>
                         <div class="price">
-                            <p class="amount">$199<span>/ Per Visit</span></p>
-                        </div>	
-                    </div>
-                    <!-- Table List -->
-                    <ul class="table-list">
-                        <li><i class="icofont icofont-ui-check"></i>Lorem ipsum dolor sit</li>
-                        <li><i class="icofont icofont-ui-check"></i>Cubitur sollicitudin fentum</li>
-                        <li class="cross"><i class="icofont icofont-ui-close"></i>Nullam interdum enim</li>
-                        <li class="cross"><i class="icofont icofont-ui-close"></i>Donec ultricies metus</li>
-                        <li class="cross"><i class="icofont icofont-ui-close"></i>Pellentesque eget nibh</li>
-                    </ul>
-                    <div class="table-bottom">
-                        <a class="btn" href="#">Book Now</a>
-                    </div>
-                    <!-- Table Bottom -->
-                </div>
-            </div>
-            <!-- End Single Table-->
-            <!-- Single Table -->
-            <div class="col-lg-4 col-md-12 col-12">
-                <div class="single-table">
-                    <!-- Table Head -->
-                    <div class="table-head">
-                        <div class="icon">
-                            <i class="icofont icofont-tooth"></i>
-                        </div>
-                        <h4 class="title">Teeth Whitening</h4>
-                        <div class="price">
-                            <p class="amount">$299<span>/ Per Visit</span></p>
+                            <p class="amount">1.000.000<span>vnđ/h</span></p>
                         </div>	
                     </div>
                     <!-- Table List -->
@@ -256,8 +257,8 @@
                         <li><i class="icofont icofont-ui-check"></i>Lorem ipsum dolor sit</li>
                         <li><i class="icofont icofont-ui-check"></i>Cubitur sollicitudin fentum</li>
                         <li><i class="icofont icofont-ui-check"></i>Nullam interdum enim</li>
-                        <li class="cross"><i class="icofont icofont-ui-close"></i>Donec ultricies metus</li>
-                        <li class="cross"><i class="icofont icofont-ui-close"></i>Pellentesque eget nibh</li>
+                        <li><i class="icofont icofont-ui-check"></i>Donec ultricies metus</li>
+                        <li><i class="icofont icofont-ui-check"></i>Pellentesque eget nibh</li>
                     </ul>
                     <div class="table-bottom">
                         <a class="btn" href="#">Book Now</a>
@@ -272,11 +273,39 @@
                     <!-- Table Head -->
                     <div class="table-head">
                         <div class="icon">
-                            <i class="icofont-heart-beat"></i>
+                            <img src="{{ asset('img/space/studio2/83f8463af362323c6b737.jpg') }}" alt="Plastic Surgery Icon">
                         </div>
-                        <h4 class="title">Heart Suggery</h4>
+                        <h4 class="title">Studio 170 m<sup>2</sup></h4>
                         <div class="price">
-                            <p class="amount">$399<span>/ Per Visit</span></p>
+                            <p class="amount">1.000.000<span>vnđ/h</span></p>
+                        </div>	
+                    </div>
+                    <!-- Table List -->
+                    <ul class="table-list">
+                        <li><i class="icofont icofont-ui-check"></i>Lorem ipsum dolor sit</li>
+                        <li><i class="icofont icofont-ui-check"></i>Cubitur sollicitudin fentum</li>
+                        <li><i class="icofont icofont-ui-check"></i>Nullam interdum enim</li>
+                        <li><i class="icofont icofont-ui-check"></i>Donec ultricies metus</li>
+                        <li><i class="icofont icofont-ui-check"></i>Pellentesque eget nibh</li>
+                    </ul>
+                    <div class="table-bottom">
+                        <a class="btn" href="#">Book Now</a>
+                    </div>
+                    <!-- Table Bottom -->
+                </div>
+            </div>
+            <!-- End Single Table-->
+            <!-- Single Table -->
+            <div class="col-lg-4 col-md-12 col-12">
+                <div class="single-table">
+                    <!-- Table Head -->
+                    <div class="table-head">
+                        <div class="icon">
+                            <img src="{{ asset('img/space/studio2/83f8463af362323c6b737.jpg') }}" alt="Plastic Surgery Icon">
+                        </div>
+                        <h4 class="title">Studio 250 m<sup>2</sup></h4>
+                        <div class="price">
+                            <p class="amount">1.000.000<span>vnđ/h</span></p>
                         </div>	
                     </div>
                     <!-- Table List -->
@@ -307,7 +336,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    <h2>Keep up with Our Most Recent Medical News.</h2>
+                    <h2>Thông tin khác.</h2>
                     <img src="img/section-img.png" alt="#">
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
                 </div>
@@ -368,7 +397,7 @@
 <!-- End Blog Area -->
 
 <!-- Start clients -->
-<div class="clients overlay">
+{{-- <div class="clients overlay">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-12">
@@ -404,125 +433,6 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!--/Ens clients -->
-
-<!-- Start Appointment -->
-<section class="appointment">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <h2>We Are Always Ready to Help You. Book An Appointment</h2>
-                    <img src="img/section-img.png" alt="#">
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 col-md-12 col-12">
-                <form class="form" action="#">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="form-group">
-                                <input name="name" type="text" placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="form-group">
-                                <input name="email" type="email" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="form-group">
-                                <input name="phone" type="text" placeholder="Phone">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="form-group">
-                                <div class="nice-select form-control wide" tabindex="0"><span class="current">Department</span>
-                                    <ul class="list">
-                                        <li data-value="1" class="option selected ">Department</li>
-                                        <li data-value="2" class="option">Cardiac Clinic</li>
-                                        <li data-value="3" class="option">Neurology</li>
-                                        <li data-value="4" class="option">Dentistry</li>
-                                        <li data-value="5" class="option">Gastroenterology</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="form-group">
-                                <div class="nice-select form-control wide" tabindex="0"><span class="current">Doctor</span>
-                                    <ul class="list">
-                                        <li data-value="1" class="option selected ">Doctor</li>
-                                        <li data-value="2" class="option">Dr. Akther Hossain</li>
-                                        <li data-value="3" class="option">Dr. Dery Alex</li>
-                                        <li data-value="4" class="option">Dr. Jovis Karon</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="form-group">
-                                <input type="text" placeholder="Date" id="datepicker">
-                            </div>
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-12">
-                            <div class="form-group">
-                                <textarea name="message" placeholder="Write Your Message Here....."></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-5 col-md-4 col-12">
-                            <div class="form-group">
-                                <div class="button">
-                                    <button type="submit" class="btn">Book An Appointment</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-7 col-md-8 col-12">
-                            <p>( We will be confirm by an Text Message )</p>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="col-lg-6 col-md-12 ">
-                <div class="appointment-image">
-                    <img src="img/contact-img.png" alt="#">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Appointment -->
-
-<!-- Start Newsletter Area -->
-<section class="newsletter section">
-    <div class="container">
-        <div class="row ">
-            <div class="col-lg-6  col-12">
-                <!-- Start Newsletter Form -->
-                <div class="subscribe-text ">
-                    <h6>Sign up for newsletter</h6>
-                    <p class="">Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu,<br> homero alterum.</p>
-                </div>
-                <!-- End Newsletter Form -->
-            </div>
-            <div class="col-lg-6  col-12">
-                <!-- Start Newsletter Form -->
-                <div class="subscribe-form ">
-                    <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
-                        <input name="EMAIL" placeholder="Your email address" class="common-input" onfocus="this.placeholder = ''"
-                            onblur="this.placeholder = 'Your email address'" required="" type="email">
-                        <button class="btn">Subscribe</button>
-                    </form>
-                </div>
-                <!-- End Newsletter Form -->
-            </div>
-        </div>
-    </div>
-</section>
-<!-- /End Newsletter Area -->
 @endsection

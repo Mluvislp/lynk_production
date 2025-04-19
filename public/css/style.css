@@ -54,6 +54,56 @@ body{
 	font-size:14px;
 	color:#888;
 }
+
+/* Modal styles */
+.modal {
+    display: none; /* Ẩn modal mặc định */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Màu nền tối */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo-img {
+    max-width: 100%; /* Đảm bảo logo không vượt quá kích thước container */
+    height: auto; /* Giữ tỷ lệ khung hình */
+}
+
+@media (min-width: 768px) {
+    /* Kích thước logo trên desktop */
+    .logo-img {
+        max-width: 150px; /* Điều chỉnh kích thước logo cho desktop */
+        padding: 5px; /* Thêm padding cho desktop */
+    }
+}
+
+@media (max-width: 767px) {
+    /* Kích thước logo trên mobile */
+    .logo-img {
+        max-width: 100px; /* Điều chỉnh kích thước logo cho mobile */
+    }
+}
 .pro-features {
 	position: fixed;
 	right: -300px;
@@ -127,7 +177,7 @@ body{
 	bottom: 15px;
 	right: 15px;
 	padding: 10px 20px;
-	background: #1a76d1;
+	background: #0000003d;
 	color: #fff;
 	font-size: 25px;
 	width: 45px;
@@ -344,7 +394,7 @@ body{
 	bottom: 0;
 	height: 3px;
 	width:0%;
-	background: #1A76D1;
+	background: #000000;
 	border-radius: 5px 5px 0 0;
 	opacity:0;
 	visibility:hidden;
@@ -1150,27 +1200,10 @@ body{
 	position:relative;
 }
 .portfolio .single-pf img{
-	height:100%;
-	width:100%;
-}
-.portfolio .single-pf:before{
-	position:absolute;
-	content:"";
-	left:0;
-	top:0;
-	height:100%;
-	width:100%;
-	background:#1a76d1;
-	opacity:0;
-	visibility:hidden;
-	-webkit-transition:all 0.4s ease;
-	-moz-transition:all 0.4s ease;
-	transition:all 0.4s ease;
-	z-index:1;
-}
-.portfolio .single-pf:hover:before{
-	opacity:0.7;
-	visibility:visible;
+	width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng container */
+    height: 300px; /* Chiều cao cố định */
+    object-fit: cover; /* Cắt hoặc lấp đầy hình ảnh để vừa với khung */
+    border-radius: 5px; /* Tùy chọn: Bo góc hình ảnh */
 }
 .portfolio .single-pf .btn {
 	color: #1a76d1;
@@ -1655,7 +1688,7 @@ body{
 .pricing-table .single-table .amount {
 	font-size:36px;
 	font-weight:600;
-	color:#1a76d1;
+	color:#202020;
 }
 .pricing-table .single-table .amount span{
 	display:inline-block;
@@ -1694,7 +1727,7 @@ body{
 	line-height: 16px;
 	text-align: center;
 	color: #fff;
-	background: #1a76d1;
+	background: #000000ab;
 	border-radius: 100%;
 	padding-left: 1px;
 }
@@ -3980,7 +4013,7 @@ body{
 .footer .footer-top{
 	padding:100px 0px;
 	position:relative;
-	background:#1A76D1;
+	background:#000000;
 }
 .footer .footer-top:before{
 	position:absolute;
@@ -4164,7 +4197,7 @@ body{
 	color:#2C2D3F;
 }
 .footer .copyright{
-	background:#1A76D1;
+	background:#797979;
 	padding:25px 0px 25px 0px;
 	text-align:center;
 }
