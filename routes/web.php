@@ -17,6 +17,8 @@ use App\Http\Controllers\PageController;
 
 Route::get('/', [PageController::class, 'index']);
 Route::get('/studio', [PageController::class, 'studio'])->name('studio');
+Route::get('/list-article', [PageController::class, 'listArticle'])->name('listArticle');
+Route::get('/article', [PageController::class, 'article'])->name('article');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/blog-single', [PageController::class, 'blogSingle'])->name('blog.single');
 Route::get('/portfolio-details', [PageController::class, 'portfolioDetails']);
