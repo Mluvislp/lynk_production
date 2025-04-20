@@ -104,6 +104,28 @@ body{
         max-width: 100px; /* Điều chỉnh kích thước logo cho mobile */
     }
 }
+
+/* Ẩn menu chính và hiển thị mobile-nav trên màn hình nhỏ */
+@media (max-width: 768px) {
+    .navigation {
+        display: none; /* Ẩn menu chính */
+    }
+
+    .mobile-nav {
+        display: block; /* Hiển thị mobile-nav */
+    }
+}
+
+/* Hiển thị menu chính và ẩn mobile-nav trên màn hình lớn */
+@media (min-width: 769px) {
+    .navigation {
+        display: block; /* Hiển thị menu chính */
+    }
+
+    .mobile-nav {
+        display: none; /* Ẩn mobile-nav */
+    }
+}
 .pro-features {
 	position: fixed;
 	right: -300px;
@@ -357,9 +379,19 @@ body{
 .get-quote .btn{
 	color:#fff;
 }
-.header .logo {
-	float: left;
-	/* margin-top: 18px; */
+/* Mobile: Hiển thị logo với margin-top */
+@media (max-width: 768px) {
+    .header .logo {
+        float: left;/* Hiển thị logo */
+        margin-top: 18px; /* Thêm margin-top */
+    }
+}
+
+/* Desktop: Ẩn logo */
+@media (min-width: 769px) {
+    .header .logo {
+        float: left; /* Ẩn logo */
+    }
 }
 .header .navbar {
 	background: none;

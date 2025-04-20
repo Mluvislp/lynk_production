@@ -48,9 +48,6 @@
                     </ul>
                 </nav>
                 </div>
-                <div class="col-lg-2 col-12 text-right">
-                    <a href="#" class="btn">BOOK NOW</a>
-                </div>
             </div>
         </div>
     </div>
