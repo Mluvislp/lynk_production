@@ -11,7 +11,7 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="text">
-                            <h1>LYNK <span>STUDIO</span> - Rental</h1>
+                            <h1><span>STUDIO</span> - Rental</h1>
                             <p>33 Đ. Số 2, An Phú, Thủ Đức, Hồ Chí Minh</p>
                         </div>
                     </div>
@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="text">
-                            <h1>LYNK <span>STUDIO</span> - Rental</h1>
+                            <h1><span>STUDIO</span> - Rental</h1>
                             <p>33 Đ. Số 2, An Phú, Thủ Đức, Hồ Chí Minh</p>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="text">
-                            <h1>LYNK <span>STUDIO</span> - Rental</h1>
+                            <h1><span>STUDIO</span> - Rental</h1>
                             <p>33 Đ. Số 2, An Phú, Thủ Đức, Hồ Chí Minh</p>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                                 <span>Studio 1</span>
                                 <h4>Studio 50 m<sup>2</sup></h4>
                                 <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
-                                <a href="#">Xem thêm<i class="fa fa-long-arrow-right"></i></a>
+                                <a href="{{ route('studio1') }}">Xem thêm<i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
                                 <span>Studio 2</span>
                                 <h4>Studio 170 m<sup>2</sup></h4>
                                 <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
-                                <a href="#">Xem thêm<i class="fa fa-long-arrow-right"></i></a>
+                                <a href="{{ route('studio2') }}">Xem thêm<i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                                 <span>Studio 3</span>
                                 <h4>Studio 250 m<sup>2</sup></h4>
                                 <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
-                                <a href="#">Xem thêm<i class="fa fa-long-arrow-right"></i></a>
+                                <a href="{{ route('studio3') }}">Xem thêm<i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
