@@ -19,10 +19,21 @@ class PageController extends Controller
         return view('pages.index', compact('posts'));
     }
 
-    public function studio()
+    public function studio1()
     {
-        return view('pages.studio');
+        return view('pages.studio-1');
     }
+
+    public function studio2()
+    {
+        return view('pages.studio-2');
+    }
+
+    public function studio3()
+    {
+        return view('pages.studio-3');
+    }
+
 
     public function listArticle(Request $request)
     {

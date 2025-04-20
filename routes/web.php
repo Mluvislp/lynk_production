@@ -16,7 +16,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 
 Route::get('/', [PageController::class, 'index']);
-Route::get('/studio', [PageController::class, 'studio'])->name('studio');
+Route::get('/studio-1', [PageController::class, 'studio1'])->name('studio1');
+Route::get('/studio-2', [PageController::class, 'studio2'])->name('studio2');
+Route::get('/studio-3', [PageController::class, 'studio3'])->name('studio3');
 Route::get('/list-article', [PageController::class, 'listArticle'])->name('listArticle');
 Route::get('/article/{slug}', [PageController::class, 'article'])->name('article');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');

@@ -27,7 +27,7 @@
                 <div class="col-lg-3 col-md-3 col-12">
                         <div class="logo">
                             <a href="{{ url('/') }}">
-                                <img src="{{ asset('img/logo/LOGO LYNK_02.png') }}" alt="Logo" class="logo-img">
+                                <img src="{{ asset('img/logo/LOGO_LYNK.png') }}" alt="Logo" class="logo-img">
                             </a>
                         </div>
                     <div class="mobile-nav"></div>
@@ -38,10 +38,9 @@
                         <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{ url('/') }}">Trang chủ</a></li>
                         <li class="{{ Request::is('studio*') ? 'active' : '' }}"><a href="#">Studio</a>
                             <ul class="dropdown">
-                                <li class="{{ Route::currentRouteName() === 'studio' ? 'active' : '' }}"><a href="{{ route('studio') }}">Studio 1</a></li>
-                                <li class="{{ Route::currentRouteName() === 'studio' ? 'active' : '' }}"><a href="{{ route('studio') }}">Studio 2</a></li>
-                                <li class="{{ Route::currentRouteName() === 'studio' ? 'active' : '' }}"><a href="{{ route('studio') }}">Studio 3</a></li>
-                                <li class="{{ Route::currentRouteName() === 'studio' ? 'active' : '' }}"><a href="{{ route('studio') }}">Lynk cafe</a></li>
+                                <li class="{{ Route::currentRouteName() === 'studio1' ? 'active' : '' }}"><a href="{{ route('studio1') }}">Studio 1</a></li>
+                                <li class="{{ Route::currentRouteName() === 'studio2' ? 'active' : '' }}"><a href="{{ route('studio2') }}">Studio 2</a></li>
+                                <li class="{{ Route::currentRouteName() === 'studio3' ? 'active' : '' }}"><a href="{{ route('studio3') }}">Studio 3</a></li>
                             </ul>
                         </li>
                         <li class="{{ Request::is('listArticle') ? 'active' : '' }}"><a href="{{ route('listArticle') }}">Portfolio</a></li>
