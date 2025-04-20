@@ -343,55 +343,29 @@
             </div>
         </div>
         <div class="row">
+        @foreach($posts as $post)
             <div class="col-lg-4 col-md-6 col-12">
                 <!-- Single Blog -->
                 <div class="single-news">
                     <div class="news-head">
-                        <img src="img/blog1.jpg" alt="#">
+                        <!-- Hiển thị ảnh bài viết -->
+                        <img src="{{ Voyager::image($post->image) }}" alt="{{ $post->title }}">
                     </div>
                     <div class="news-body">
                         <div class="news-content">
-                            <div class="date">22 Aug, 2020</div>
-                            <h2><a href="blog-single.html">We have annnocuced our new product.</a></h2>
-                            <p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
+                            <!-- Hiển thị ngày tạo bài viết -->
+                            <div class="date">{{ $post->created_at->format('d M, Y') }}</div>
+                            <!-- Hiển thị tiêu đề bài viết -->
+                            <h2><a href="{{ route('article', $post->slug) }}">{{ $post->title }}</a></h2>
+                            <!-- Hiển thị mô tả ngắn -->
+                            <p class="text">{{ Str::limit($post->excerpt, 100) }}</p>
                         </div>
                     </div>
                 </div>
                 <!-- End Single Blog -->
             </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Single Blog -->
-                <div class="single-news">
-                    <div class="news-head">
-                        <img src="img/blog2.jpg" alt="#">
-                    </div>
-                    <div class="news-body">
-                        <div class="news-content">
-                            <div class="date">15 Jul, 2020</div>
-                            <h2><a href="blog-single.html">Top five way for solving teeth problems.</a></h2>
-                            <p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Blog -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Single Blog -->
-                <div class="single-news">
-                    <div class="news-head">
-                        <img src="img/blog3.jpg" alt="#">
-                    </div>
-                    <div class="news-body">
-                        <div class="news-content">
-                            <div class="date">05 Jan, 2020</div>
-                            <h2><a href="blog-single.html">We provide highly business soliutions.</a></h2>
-                            <p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Blog -->
-            </div>
-        </div>
+        @endforeach
+</div>
     </div>
 </section>
 <!-- End Blog Area -->

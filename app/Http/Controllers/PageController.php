@@ -10,7 +10,13 @@ class PageController extends Controller
 {
     public function index()
     {
-        return view('pages.index');
+        // Lấy 3 bài viết mới nhất
+        $posts = Post::where('status', 'PUBLISHED')
+            ->orderBy('created_at', 'desc')
+            ->take(3)
+            ->get();
+
+        return view('pages.index', compact('posts'));
     }
 
     public function studio()
