@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use TCG\Voyager\Models\Post;
+use TCG\Voyager\Models\Category;
 
 class PageController extends Controller
 {
@@ -17,11 +18,28 @@ class PageController extends Controller
         return view('pages.studio');
     }
 
-    public function listArticle()
+    public function listArticle(Request $request)
     {
-        $articles = Post::where('status', 'PUBLISHED')->orderBy('created_at', 'desc')->paginate(6);
+        // Lấy category từ request (nếu có)
+        $categorySlug = $request->query('category');
+        $category = null;
 
-        return view('pages.list-article', compact('articles'));
+        if ($categorySlug) {
+            $category = Category::where('slug', $categorySlug)->first();
+            $articles = Post::where('status', 'PUBLISHED')
+                ->where('category_id', $category->id)
+                ->orderBy('created_at', 'desc')
+                ->paginate(6);
+        } else {
+            $articles = Post::where('status', 'PUBLISHED')
+                ->orderBy('created_at', 'desc')
+                ->paginate(6);
+        }
+
+        // Lấy danh sách categories
+        $categories = Category::all();
+
+        return view('pages.list-article', compact('articles', 'categories', 'category'));
     }
 
     public function article($slug)
