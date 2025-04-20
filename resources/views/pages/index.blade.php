@@ -148,7 +148,6 @@
             <div class="col-lg-12">
                 <div class="section-title">
                     <h2>Tham khảo các hoạt động</h2>
-                    <img src="img/section-img.png" alt="#">
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
                 </div>
             </div>
@@ -232,7 +231,6 @@
             <div class="col-lg-12">
                 <div class="section-title">
                     <h2>Chúng tôi cung cấp dịch vụ với giá cả tốt nhất</h2>
-                    <img src="img/section-img.png" alt="#">
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
                 </div>
             </div>
@@ -337,7 +335,6 @@
             <div class="col-lg-12">
                 <div class="section-title">
                     <h2>Thông tin khác.</h2>
-                    <img src="img/section-img.png" alt="#">
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
                 </div>
             </div>
