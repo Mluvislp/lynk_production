@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use TCG\Voyager\Models\Post;
 
 class PageController extends Controller
 {
@@ -18,38 +19,17 @@ class PageController extends Controller
 
     public function listArticle()
     {
-        $articles = collect([
-            (object)[
-                'id' => 1,
-                'title' => 'The Future of Technology',
-                'image' => 'img/articles/tech.jpg',
-                'author' => 'John Doe',
-                'description' => 'Exploring the latest advancements in technology and their impact on society.',
-                'created_at' => now()->subDays(1),
-            ],
-            (object)[
-                'id' => 2,
-                'title' => 'Health and Wellness Tips',
-                'image' => 'img/articles/health.jpg',
-                'author' => 'Jane Smith',
-                'description' => 'Discover practical tips for maintaining a healthy lifestyle.',
-                'created_at' => now()->subDays(2),
-            ],
-            (object)[
-                'id' => 3,
-                'title' => 'Travel Destinations for 2025',
-                'image' => 'img/articles/travel.jpg',
-                'author' => 'Emily Johnson',
-                'description' => 'Top travel destinations to explore in 2025.',
-                'created_at' => now()->subDays(3),
-            ],
-        ]);
+        $articles = Post::where('status', 'PUBLISHED')->orderBy('created_at', 'desc')->paginate(6);
+
         return view('pages.list-article', compact('articles'));
     }
 
-    public function article()
+    public function article($slug)
     {
-        return view('pages.article');
+        $post = Post::query()->where('slug', $slug)->firstOrFail();
+        $recentPosts = Post::orderBy('created_at', 'desc')->take(3)->get();
+
+        return view('pages.article' , compact('post','recentPosts'));
     }
 
     public function contact()
