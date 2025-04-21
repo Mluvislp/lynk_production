@@ -9,7 +9,8 @@ return [
     | Here you can specify voyager user configs
     |
     */
-
+    'google_analytics_client_id' => "G-LKYM7Q571H",
+    
     'user' => [
         'add_default_role_on_register' => true,
         'default_role'                 => 'user',
