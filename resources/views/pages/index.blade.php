@@ -63,10 +63,9 @@
                                 <i class="icofont-ui-camera"></i>
                             </div>
                             <div class="single-content">
-                                <span>Studio 1</span>
                                 <h4>Studio 50 m<sup>2</sup></h4>
-                                <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
-                                <a href="{{ route('studio1') }}">Xem thêm<i class="fa fa-long-arrow-right"></i></a>
+                                <p>SẢN PHẨM NHỎ, CHỤP LOOKBOOK TẠP CHÍ QUAY TALKSHOW, LIVESTREAM, MINI EVENT.</p>
+                                <a href="{{ route('studio1') }}">Chi tiết<i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -79,10 +78,9 @@
                                 <i class="icofont-camera"></i>
                             </div>
                             <div class="single-content">
-                                <span>Studio 2</span>
                                 <h4>Studio 170 m<sup>2</sup></h4>
-                                <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
-                                <a href="{{ route('studio2') }}">Xem thêm<i class="fa fa-long-arrow-right"></i></a>
+                                <p>SẢN PHẨM LỚN, TVC, MV, LOOKBOOK TỔ CHỨC WORKSHOP, EVENT, TRIỂN LÃM.</p>
+                                <a href="{{ route('studio2') }}">Chi tiết<i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -95,10 +93,9 @@
                                 <i class="icofont-camera-alt"></i>
                             </div>
                             <div class="single-content">
-                                <span>Studio 3</span>
                                 <h4>Studio 250 m<sup>2</sup></h4>
-                                <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
-                                <a href="{{ route('studio3') }}">Xem thêm<i class="fa fa-long-arrow-right"></i></a>
+                                <p>SẢN PHẨM LỚN, TVC, MV, LOOKBOOK TỔ CHỨC WORKSHOP, EVENT, TRIỂN LÃM.</p>
+                                <a href="{{ route('studio3') }}">Chi tiết<i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -116,8 +113,8 @@
                 <!-- Start Choose Left -->
                 <div class="choose-left">
                     <h3>Chúng tôi là ai?</h3>
-                    <p>Studio chụp ảnh chuyên nghiệp, với diện tích 50m<sup>2</sup>, 170m<sup>2</sup>, 250m<sup>2</sup> và tường vô cực, sử dụng thiết bị từ các thương hiệu hàng đầu như Profoto, Fujifilm, Aputure...</p>
-                    <p>LYNK studio là giải pháp hoàn hảo cho mọi nhu cầu về sáng tạo khác nhau.. </p>
+                    <p><b>LYNK PRODUCTION</b> cung cấp dịch vụ quay phim, chụp hình chuyên nghiệp và cho thuê studio cùng thiết bị chuyên dụng</p>
+                    <p>Với đội ngũ giàu kinh nghiệm và cơ sở vật chất hiện đại, chúng tôi cam kết đem đến khách hàng những sản phẩm hình ảnh chất lượng cao, áp ứng mọi nhu cầu sáng tạo. </p>
                 </div>
                 <!-- End Choose Left -->
             </div>
@@ -246,20 +243,17 @@
                             <img src="{{ asset('img/space/studio2/83f8463af362323c6b737.jpg') }}" alt="Plastic Surgery Icon">
                         </div>
                         <h4 class="title">Studio 50 m<sup>2</sup></h4>
-                        <div class="price">
-                            <p class="amount">1.000.000<span>vnđ/h</span></p>
-                        </div>	
+                        
                     </div>
                     <!-- Table List -->
                     <ul class="table-list">
-                        <li><i class="icofont icofont-ui-check"></i>Lorem ipsum dolor sit</li>
-                        <li><i class="icofont icofont-ui-check"></i>Cubitur sollicitudin fentum</li>
-                        <li><i class="icofont icofont-ui-check"></i>Nullam interdum enim</li>
-                        <li><i class="icofont icofont-ui-check"></i>Donec ultricies metus</li>
-                        <li><i class="icofont icofont-ui-check"></i>Pellentesque eget nibh</li>
+                        <li><i class="icofont icofont-ui-check"></i>1.000.000 VND 1 Giờ chụp</li>
+                        <li><i class="icofont icofont-ui-check"></i>11.000.000 VND 1 Ngày chụp</li>
+                        <li><i class="icofont icofont-ui-check"></i>1.100.000 VND 1 Giờ quay</li>
+                        <li><i class="icofont icofont-ui-check"></i>13.000.000 VND 1 Ngày quay</li>
                     </ul>
                     <div class="table-bottom">
-                        <a class="btn" href="#">Book Now</a>
+                        <a class="btn" href="#">Kiểm tra lịch trống</a>
                     </div>
                     <!-- Table Bottom -->
                 </div>
@@ -274,20 +268,16 @@
                             <img src="{{ asset('img/space/studio2/83f8463af362323c6b737.jpg') }}" alt="Plastic Surgery Icon">
                         </div>
                         <h4 class="title">Studio 170 m<sup>2</sup></h4>
-                        <div class="price">
-                            <p class="amount">1.000.000<span>vnđ/h</span></p>
-                        </div>	
+                        
                     </div>
-                    <!-- Table List -->
                     <ul class="table-list">
-                        <li><i class="icofont icofont-ui-check"></i>Lorem ipsum dolor sit</li>
-                        <li><i class="icofont icofont-ui-check"></i>Cubitur sollicitudin fentum</li>
-                        <li><i class="icofont icofont-ui-check"></i>Nullam interdum enim</li>
-                        <li><i class="icofont icofont-ui-check"></i>Donec ultricies metus</li>
-                        <li><i class="icofont icofont-ui-check"></i>Pellentesque eget nibh</li>
+                        <li><i class="icofont icofont-ui-check"></i>600.000 VND 1 Giờ chụp</li>
+                        <li><i class="icofont icofont-ui-check"></i>7.000.000 VND 1 Ngày chụp</li>
+                        <li><i class="icofont icofont-ui-check"></i>700.000 VND 1 Giờ quay</li>
+                        <li><i class="icofont icofont-ui-check"></i>8.500.000 VND 1 Ngày quay</li>
                     </ul>
                     <div class="table-bottom">
-                        <a class="btn" href="#">Book Now</a>
+                        <a class="btn" href="#">Kiểm tra lịch trống</a>
                     </div>
                     <!-- Table Bottom -->
                 </div>
@@ -302,20 +292,17 @@
                             <img src="{{ asset('img/space/studio2/83f8463af362323c6b737.jpg') }}" alt="Plastic Surgery Icon">
                         </div>
                         <h4 class="title">Studio 250 m<sup>2</sup></h4>
-                        <div class="price">
-                            <p class="amount">1.000.000<span>vnđ/h</span></p>
-                        </div>	
+                        
                     </div>
                     <!-- Table List -->
                     <ul class="table-list">
-                        <li><i class="icofont icofont-ui-check"></i>Lorem ipsum dolor sit</li>
-                        <li><i class="icofont icofont-ui-check"></i>Cubitur sollicitudin fentum</li>
-                        <li><i class="icofont icofont-ui-check"></i>Nullam interdum enim</li>
-                        <li><i class="icofont icofont-ui-check"></i>Donec ultricies metus</li>
-                        <li><i class="icofont icofont-ui-check"></i>Pellentesque eget nibh</li>
+                        <li><i class="icofont icofont-ui-check"></i>300.000 VND 1 Giờ chụp</li>
+                        <li><i class="icofont icofont-ui-check"></i>3.500.000 VND 1 Ngày chụp</li>
+                        <li><i class="icofont icofont-ui-check"></i>400.000 VND 1 Giờ quay</li>
+                        <li><i class="icofont icofont-ui-check"></i>4.500.000 VND 1 Ngày quay</li>
                     </ul>
                     <div class="table-bottom">
-                        <a class="btn" href="#">Book Now</a>
+                        <a class="btn" href="#">Kiểm tra lịch trống</a>
                     </div>
                     <!-- Table Bottom -->
                 </div>
