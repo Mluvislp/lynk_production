@@ -145,7 +145,6 @@
             <div class="col-lg-12">
                 <div class="section-title">
                     <h2>Tham khảo các hoạt động</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
                 </div>
             </div>
         </div>
@@ -228,7 +227,6 @@
             <div class="col-lg-12">
                 <div class="section-title">
                     <h2>Chúng tôi cung cấp dịch vụ với giá cả tốt nhất</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
                 </div>
             </div>
         </div>
@@ -314,15 +312,14 @@
 <!--/ End Pricing Table -->
 
 
-
-<!-- Start Blog Area -->
+@php
+/*
 <section class="blog section" id="blog">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    <h2>Thông tin khác.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
+                    <h2>Tìm hiểu thêm.</h2>
                 </div>
             </div>
         </div>
@@ -349,48 +346,9 @@
                 <!-- End Single Blog -->
             </div>
         @endforeach
-</div>
-    </div>
-</section>
-<!-- End Blog Area -->
-
-<!-- Start clients -->
-{{-- <div class="clients overlay">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-12">
-                <div class="owl-carousel clients-slider">
-                    <div class="single-clients">
-                        <img src="img/client1.png" alt="#">
-                    </div>
-                    <div class="single-clients">
-                        <img src="img/client2.png" alt="#">
-                    </div>
-                    <div class="single-clients">
-                        <img src="img/client3.png" alt="#">
-                    </div>
-                    <div class="single-clients">
-                        <img src="img/client4.png" alt="#">
-                    </div>
-                    <div class="single-clients">
-                        <img src="img/client5.png" alt="#">
-                    </div>
-                    <div class="single-clients">
-                        <img src="img/client1.png" alt="#">
-                    </div>
-                    <div class="single-clients">
-                        <img src="img/client2.png" alt="#">
-                    </div>
-                    <div class="single-clients">
-                        <img src="img/client3.png" alt="#">
-                    </div>
-                    <div class="single-clients">
-                        <img src="img/client4.png" alt="#">
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-</div> --}}
-<!--/Ens clients -->
+</section>
+*/
+@endphp
 @endsection

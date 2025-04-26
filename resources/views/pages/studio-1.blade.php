@@ -8,11 +8,11 @@
         <div class="bread-inner">
             <div class="row">
                 <div class="col-12">
-                    <h2>Studio 1</h2>
+                    <h2>Studio Sàn Gỗ 50m²</h2>
                     <ul class="bread-list">
                         <li><a href="/">Home</a></li>
                         <li><i class="icofont-simple-right"></i></li>
-                        <li class="active">Studio</li>
+                        <li class="active">Studio 50m² Sàn Gỗ</li>
                     </ul>
                 </div>
             </div>
@@ -29,24 +29,19 @@
                 <div class="inner-content">
                     <div class="image-slider">
                         <div class="pf-details-slider">
-                            <img src="{{ asset('img/space/DSCF7761.JPG') }}" alt="#">
-                            <img src="{{ asset('img/space/DSCF8652.JPG') }}" alt="#">
-                            <img src="{{ asset('img/space/IMG_6603.JPG') }}" alt="#">
+                            <img src="{{ asset('img/space/studio/studio_50_1.JPG') }}" alt="#">
+                            <img src="{{ asset('img/space/studio/studio_50_2.JPG') }}" alt="#">
                         </div>
                     </div>
-                    <div class="date">
-                        <ul>
-                            <li><span>Diện tích :</span> 50 m<sup>2</sup></li>
-                            <li><span>Giá :</span> 1.000.000<span>vnđ/h</span></li>
-                            <li><span>Lorem ipsum :</span> Lorem ipsum</li>
-                        </ul>
-                    </div>
                     <div class="body-text">
-                        <h3>Here is the name of this project here</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor a ti incididunt ut labore et dolore to in magna aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna aliqua uis nostrud.Lorem ipsum dolor sit amet, in a in to in a consectetur.ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna in a aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed do eiusmod</p>
-                        <p>ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna to in aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed do eiusmod.ncididunt ut labore et dolore magna aliqua. </p>
-                        <p>ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna a aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed do eiusmod.ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed do eiusmod. dolor sit amet, in aed do eiusmod.ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna aliqua uis nostrud.</p>
-                        <div class="share">
+                        <h3>Studio Sàn Gỗ 50m²</h3>
+                        <p>Studio nhỏ 50m² với sàn gỗ ấm áp, phù hợp cho chụp lookbook, tạp chí, quay talkshow, livestream hoặc mini event.
+                         Với thiết kế tinh tế, khu vực này rất được các nhóm nhỏ ưa chuộng vì tính linh hoạt và riêng tư.</p>
+                        <p>Bảng giá áp dụng từ 11/2024: <br>
+                        - 300.000 VNĐ/giờ chụp <br>
+                        - 400.000 VNĐ/giờ quay <br>
+                        - 3.500.000 VNĐ/ngày chụp <br>
+                        - 4.500.000 VNĐ/ngày quay</p><div class="share">
                             <h4>- Kiểm tra lịch -</h4>
                             <div class="calendar-container">
                             <iframe src="https://calendar.google.com/calendar/embed?src=cd2807f6cc63de659516959263fb02c40ebd26e9001406309c227d27be687d41%40group.calendar.google.com&ctz=Asia%2FHo_Chi_Minh" style="border: 0"   width="100%" height="600"  frameborder="0" scrolling="no"></iframe>
