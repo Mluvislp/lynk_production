@@ -38,10 +38,34 @@
                         <h3>Studio Vô Cực 250m²</h3>
                         <p>Không gian vô cực 250m² rộng lớn, lý tưởng cho các dự án sản phẩm lớn, TVC, MV, lookbook hoặc tổ chức workshop, event, triển lãm quy mô lớn. Studio hỗ trợ đầy đủ tiện ích miễn phí, hệ thống ánh sáng cơ bản và nhiều props sẵn có.</p>
                         <p>Bảng giá áp dụng từ 11/2024: <br>
-                        - 1.000.000 VNĐ/giờ chụp <br>
-                        - 1.100.000 VNĐ/giờ quay <br>
-                        - 11.000.000 VNĐ/ngày chụp <br>
-                        - 13.000.000 VNĐ/ngày quay</p>
+                        - <b>1.000.000</b> VNĐ/giờ chụp <br>
+                        - <b>1.100.000</b> VNĐ/giờ quay <br>
+                        - <b>11.000.000</b> VNĐ/ngày chụp <br>
+                        - <b>13.000.000</b> VNĐ/ngày quay</p>
+                        <p>Giá chưa bao gồm VAT</p>
+                        <p> Booking tối thiểu 2 tiếng</p>
+                        <p> Gói thuê theo ngày áp dụng tối đa 15 tiếng (phụ thu phí ngoài 15 tiếng: 750.000VNĐ/1H)
+                            5,5m</p>
+                        <br>
+
+                        <p><b>Thiết bị hỗ trợ</b></p>
+                        <ul>
+                            <li>7 flash Godox (cho gói chụp)</li>
+                            <li>3 đèn Kino (cho gói quay)</li>
+                        </ul>
+
+                        <br>
+                        <p><b>Studio hỗ trợ miễn phí</b></p>
+                        <ul>
+                            <li>Miễn phí tiền điện, phí vệ sinh</li>
+                            <li>Miễn phí phát sinh người</li>
+                            <li>Miễn phụ thu phí ngoài giờ</li>
+                            <li>Miễn phí phông màu cơ bản</li>
+                            <li>Miễn phí setup ánh sáng cơ bản</li>
+                            <li>Miễn phí phòng trang điểm riêng biệt</li>
+                            <li>Miễn phí các prop có sẵn trong studio</li>
+                        </ul>
+                        
                         <div class="share">
                             <h4>- Kiểm tra lịch -</h4>
                             <div class="calendar-container">
