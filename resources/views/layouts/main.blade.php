@@ -22,7 +22,7 @@
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
     @include('partials.preloader')
-    @include('partials.get-pro')
+ <!--@include('partials.get-pro')-->
 
     @include('partials.header')
 

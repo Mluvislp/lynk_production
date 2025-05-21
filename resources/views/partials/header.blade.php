@@ -44,7 +44,7 @@
                             </ul>
                         </li>
                         <li class="{{ Request::is('listArticle') ? 'active' : '' }}"><a href="{{ route('listArticle') }}">Portfolio</a></li>
-                        <li class="{{ Route::currentRouteName() === 'contact' ? 'active' : '' }}"><a href="{{ route('contact') }}">Contact Us</a></li>
+                        <?php //<li class="{{ Route::currentRouteName() === 'contact' ? 'active' : '' }}"><a href="{{ route('contact') }}">Contact Us</a></li> ?>
                     </ul>
                 </nav>
                 </div>

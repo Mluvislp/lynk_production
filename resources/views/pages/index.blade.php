@@ -245,13 +245,13 @@
                     </div>
                     <!-- Table List -->
                     <ul class="table-list">
-                        <li><i class="icofont icofont-ui-check"></i>1.000.000 VND 1 Giờ chụp</li>
-                        <li><i class="icofont icofont-ui-check"></i>11.000.000 VND 1 Ngày chụp</li>
-                        <li><i class="icofont icofont-ui-check"></i>1.100.000 VND 1 Giờ quay</li>
-                        <li><i class="icofont icofont-ui-check"></i>13.000.000 VND 1 Ngày quay</li>
+                        <li><i class="icofont icofont-ui-check"></i>300.000 VND 1 Giờ chụp</li>
+                        <li><i class="icofont icofont-ui-check"></i>400.000 VND 1 Giờ quay</li>
+                        <li><i class="icofont icofont-ui-check"></i>3.000.000 VND 1 Ngày chụp</li>
+                        <li><i class="icofont icofont-ui-check"></i>4.000.000 VND 1 Ngày quay</li>
                     </ul>
                     <div class="table-bottom">
-                        <a class="btn" href="#">Kiểm tra lịch trống</a>
+                        <a class="btn" href="{{ route('studio1') }}#kiem-tra-lich-trong">Kiểm tra lịch trống</a>
                     </div>
                     <!-- Table Bottom -->
                 </div>
@@ -270,12 +270,12 @@
                     </div>
                     <ul class="table-list">
                         <li><i class="icofont icofont-ui-check"></i>600.000 VND 1 Giờ chụp</li>
-                        <li><i class="icofont icofont-ui-check"></i>7.000.000 VND 1 Ngày chụp</li>
                         <li><i class="icofont icofont-ui-check"></i>700.000 VND 1 Giờ quay</li>
+                        <li><i class="icofont icofont-ui-check"></i>7.000.000 VND 1 Ngày chụp</li>
                         <li><i class="icofont icofont-ui-check"></i>8.500.000 VND 1 Ngày quay</li>
                     </ul>
                     <div class="table-bottom">
-                        <a class="btn" href="#">Kiểm tra lịch trống</a>
+                        <a class="btn" href="{{ route('studio2') }}#kiem-tra-lich-trong">Kiểm tra lịch trống</a>
                     </div>
                     <!-- Table Bottom -->
                 </div>
@@ -294,13 +294,13 @@
                     </div>
                     <!-- Table List -->
                     <ul class="table-list">
-                        <li><i class="icofont icofont-ui-check"></i>300.000 VND 1 Giờ chụp</li>
-                        <li><i class="icofont icofont-ui-check"></i>3.500.000 VND 1 Ngày chụp</li>
-                        <li><i class="icofont icofont-ui-check"></i>400.000 VND 1 Giờ quay</li>
-                        <li><i class="icofont icofont-ui-check"></i>4.500.000 VND 1 Ngày quay</li>
+                        <li><i class="icofont icofont-ui-check"></i>1.000.000 VND 1 Giờ chụp</li>
+                        <li><i class="icofont icofont-ui-check"></i>1.100.000 VND 1 Giờ quay</li>
+                        <li><i class="icofont icofont-ui-check"></i>11.000.000 VND 1 Ngày chụp</li>
+                        <li><i class="icofont icofont-ui-check"></i>13.500.000 VND 1 Ngày quay</li>
                     </ul>
                     <div class="table-bottom">
-                        <a class="btn" href="#">Kiểm tra lịch trống</a>
+                        <a class="btn" href="{{ route('studio3') }}#kiem-tra-lich-trong">Kiểm tra lịch trống</a>
                     </div>
                     <!-- Table Bottom -->
                 </div>
