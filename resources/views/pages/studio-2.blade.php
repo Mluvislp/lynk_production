@@ -30,12 +30,12 @@
                     <div class="image-slider">
                         <div class="pf-details-slider">
                         <img src="{{ asset('img/space/170m/170m2-1.JPG') }}" alt="#">
-                        <img src="{{ asset('img/space/170m/170m2-2.JPG') }}" alt="#">
-                        <img src="{{ asset('img/space/170m/170m2-3.JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/170m/170m2-2.jpg') }}" alt="#">
+                        <img src="{{ asset('img/space/170m/170m2-3.jpg') }}" alt="#">
                         <img src="{{ asset('img/space/170m/170m2-4.JPG') }}" alt="#">
                         <img src="{{ asset('img/space/170m/170m2-5.JPG') }}" alt="#">
-                        <img src="{{ asset('img/space/170m/170m2-6.JPG') }}" alt="#">
-                        <img src="{{ asset('img/space/170m/170m2-7.JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/170m/170m2-6.jpg') }}" alt="#">
+                        <img src="{{ asset('img/space/170m/170m2-7.jpg') }}" alt="#">
                         <img src="{{ asset('img/space/170m/170m2-8.JPG') }}" alt="#">
                         <img src="{{ asset('img/space/170m/170m2-9.JPG') }}" alt="#">
                         </div>

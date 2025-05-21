@@ -31,23 +31,23 @@
                         <div class="pf-details-slider">
                         <img src="{{ asset('img/space/250m/250m2(15).jpg') }}" alt="#">
                         <img src="{{ asset('img/space/250m/250m2.jpg') }}" alt="#">
-                        <img src="{{ asset('img/space/250m/250m2(2).jpg') }}" alt="#">
-                        <img src="{{ asset('img/space/250m/250m2(4).jpg') }}" alt="#">
-                        <img src="{{ asset('img/space/250m/250m2(5).jpg') }}" alt="#">
-                        <img src="{{ asset('img/space/250m/250m2(6).jpg') }}" alt="#">
-                        <img src="{{ asset('img/space/250m/250m2(7).jpg') }}" alt="#">
+                        <img src="{{ asset('img/space/250m/250m2(2).JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/250m/250m2(4).JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/250m/250m2(5).JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/250m/250m2(6).JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/250m/250m2(7).JPG') }}" alt="#">
                         <img src="{{ asset('img/space/250m/250m2(8).jpg') }}" alt="#">
-                        <img src="{{ asset('img/space/250m/250m2(9).jpg') }}" alt="#">
-                        <img src="{{ asset('img/space/250m/250m2(10).jpg') }}" alt="#">
-                        <img src="{{ asset('img/space/250m/250m2(11).jpg') }}" alt="#">
-                        <img src="{{ asset('img/space/250m/250m2(12).jpg') }}" alt="#">
+                        <img src="{{ asset('img/space/250m/250m2(9).JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/250m/250m2(10).JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/250m/250m2(11).JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/250m/250m2(12).JPG') }}" alt="#">
                         <img src="{{ asset('img/space/250m/250m2(13).jpg') }}" alt="#">
                         <img src="{{ asset('img/space/250m/250m2(14).jpg') }}" alt="#">
-                        <img src="{{ asset('img/space/250m/250m2(16).jpg') }}" alt="#">
-                        <img src="{{ asset('img/space/250m/250m2(17).jpg') }}" alt="#">
+                        <img src="{{ asset('img/space/250m/250m2(16).JPG') }}" alt="#">
+                        <img src="{{ asset('img/space/250m/250m2(17).JPG') }}" alt="#">
                         <img src="{{ asset('img/space/250m/250m2(18).jpg') }}" alt="#">
                         <img src="{{ asset('img/space/250m/250m2(19).jpg') }}" alt="#">
-                        <img src="{{ asset('img/space/250m/250m2(20).jpg') }}" alt="#">
+                        <img src="{{ asset('img/space/250m/250m2(20).JPG') }}" alt="#">
 
                         </div>
                     </div>
